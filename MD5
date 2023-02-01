@@ -1,0 +1,12 @@
+31960787f3b6b5cb36911ac107451521 *DESCRIPTION
+788a38ffc83f749635a7e76238196c3e *NAMESPACE
+95021d36f3583ad301a39bad0939a27c *R/RcppExports.R
+5cefa311625a64742d48b397489bf56a *R/array.R
+714730f108a710c5a988ee8d8fc623b4 *README.md
+03276a87d70459c8ec6ebcc39e2678eb *inst/include/RcppArray.h
+698e983eebefec7a6dd4a62af37ed63a *inst/tinytest/test_RcppArray.R
+c6ff638acf628ac9227776811cd7c596 *man/RcppArray-package.Rd
+3f03da795dd26373156bddc78d41e95d *src/Makevars
+548f1d5d0037626eb7c8aa0f94b20d53 *src/RcppExports.cpp
+f48d4e5af0a1f8da2f819f7e459aeed7 *src/main.cpp
+b1fcb3019763661324faf34911f16301 *tests/tinytest.R
