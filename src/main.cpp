@@ -40,3 +40,15 @@ void int64Array(RObject x) {
   std::array<int64_t,3> a = Rcpp::as<std::array<int64_t,3>>(x);
   printArray(a);
 }
+
+// [[Rcpp::export]]
+void intDoubleString(RObject x) {
+  std::tuple<int,double,std::string> t = Rcpp::as<std::tuple<int,double,std::string>>(x);
+  Rcout << "Tuple: " << std::get<0>(t) << " " << std::get<1>(t) << " " << std::get<2>(t) << std::endl;
+}
+
+// [[Rcpp::export]]
+SEXP wrapTuple() {
+  std::tuple<int,double,std::string> t = { 1, 2.56, "test" };
+  return Rcpp::wrap(t);
+}
